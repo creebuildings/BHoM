@@ -1,0 +1,16 @@
+<Project>
+	<PropertyGroup Label="Projects metadata">
+		<NeutralLanguage>en-US</NeutralLanguage>
+	</PropertyGroup>
+	<PropertyGroup Label="Common properties">
+		<Nullable>disable</Nullable>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<EnableNETAnalyzers>false</EnableNETAnalyzers>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<NoWarn>1701;1702;IL2121;1591;1600;1601;IL2121;SA1591;SA1600;SA1601;SA1515;1515</NoWarn>
+	</PropertyGroup>
+	<ItemGroup Label="Analyzer packages">
+		<PackageReference Remove="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="all"/>
+		<PackageReference Remove="Text.Analyzers" Version="2.6.4" PrivateAssets="all"/>
+	</ItemGroup>
+</Project>
